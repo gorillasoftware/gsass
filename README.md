@@ -28,6 +28,10 @@ Import gsass into your application sass file
 
     @mixin gs-footer-logo
 
+### gs-filter
+
+    @mixin gs-filter($filter)
+
 ## Contributing
 
 1. Fork it
