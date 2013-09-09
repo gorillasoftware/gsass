@@ -6,7 +6,7 @@ require 'gsass/version'
 Gem::Specification.new do |spec|
   spec.name          = "gsass"
   spec.version       = Gsass::VERSION
-  spec.platform         = Gem::Platform::RUBY
+  spec.platform      = Gem::Platform::RUBY
   spec.authors       = ["Sebastian de Castelberg"]
   spec.email         = ["sebu@kpricorn.org"]
   spec.description   = %q{gorilla software sass mixins}
@@ -20,10 +20,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency('sass', '>= 3.2.0')
-  spec.add_dependency('thor')
-
-  spec.add_development_dependency('aruba', '~> 0.4')
-  spec.add_development_dependency('rake')
+  spec.add_dependency('rails-sass-images')
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
