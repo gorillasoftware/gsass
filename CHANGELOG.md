@@ -1,3 +1,7 @@
+## 0.0.4 (2013-09-09)
+
+* make non-rails compatible (e.g. middleman)
+
 ## 0.0.3 (2013-09-09)
 
 * fix svg inlining

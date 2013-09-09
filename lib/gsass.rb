@@ -7,7 +7,11 @@ unless defined?(Sass)
 end
 
 module Gsass
-  class Engine < ::Rails::Engine
-    require 'gsass/engine'
+  if defined?(Rails) && defined?(Rails::Engine)
+    class Engine < ::Rails::Engine
+      require 'gsass/engine'
+    end
+  else
+    Sass.load_paths << File.expand_path("../../app/assets/stylesheets", __FILE__)
   end
 end
