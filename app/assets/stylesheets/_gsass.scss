@@ -15,3 +15,18 @@
     min-height: image-height($img-raster);
   }
 }
+
+@mixin gs-footer-logo {
+  @include transition(all 0.3s);
+  display: block;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  @include gs-image('gs', $height: true, $width: true);
+  opacity: 0.5;
+  border-radius: 32px;
+  box-shadow: #666 0 0 20px;
+  border: 2px solid #999;
+  &:hover {
+    opacity: 1;
+  }
+}
