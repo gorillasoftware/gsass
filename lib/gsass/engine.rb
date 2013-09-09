@@ -1,5 +1,6 @@
 module Gsass
-  class Engine < Rails::Engine
-    # auto wire
+  module Rails
+    class Engine < ::Rails::Engine
+    end
   end
 end
