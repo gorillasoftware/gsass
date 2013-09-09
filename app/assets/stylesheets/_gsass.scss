@@ -3,7 +3,7 @@
   background-image: image-url($img-raster);
   @if $svg {
     $img-svg: "#{$img}.svg";
-    background-image: none, inline-image($img-svg);
+    background-image: none, inline($img-svg);
   }
   background-position: center;
   background-repeat: no-repeat;

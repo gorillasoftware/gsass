@@ -1,3 +1,7 @@
+## 0.0.3 (2013-09-09)
+
+* fix svg inlining
+
 ## 0.0.2 (2013-09-09)
 
 * filter mixin
