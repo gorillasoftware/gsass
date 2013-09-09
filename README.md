@@ -1,7 +1,5 @@
 # Gsass
 
-TODO: Write a gem description
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -16,9 +14,19 @@ Or install it yourself as:
 
     $ gem install gsass
 
-## Usage
+Import gsass into your application sass file
 
-TODO: Write usage instructions here
+    @import "gsass";
+
+## Available mixins
+
+### gs-image
+
+    @mixin gs-image ($img, $raster-format: 'png', $svg: true, $height: false, $width: false)
+
+### gs-footer-logo
+
+    @mixin gs-footer-logo
 
 ## Contributing
 
